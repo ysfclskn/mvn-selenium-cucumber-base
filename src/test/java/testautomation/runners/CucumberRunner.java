@@ -6,10 +6,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"html:target/default-html-reports"},
+        plugin = {"html:target/default-html-reports","io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm"},
         glue = "testautomation/step_def",
         features = "src/test/resources/features",
-        dryRun = false
+        dryRun = false,
+        tags = "@smoke"
 )
 public class CucumberRunner {
 
