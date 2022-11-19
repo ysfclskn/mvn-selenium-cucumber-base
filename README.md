@@ -20,7 +20,7 @@ You can run with `mvn clean test` on commandline
 
 # CucumberOptions
 
-You can change and edit the Cucumber settings from the CucumberRunner.class file:
+You can change and edit the Cucumber options from the CucumberRunner.class file:
 
 ![image](https://user-images.githubusercontent.com/13632583/202848565-4fa70e34-8dda-4b79-bc0d-d42b252f761f.png)
 
