@@ -1,5 +1,5 @@
-# mvn-selenium-cucumber-skeleton
-Maven, Selenium And Cucumber Skeleton Project
+# mvn-selenium-cucumber-base
+Maven, Selenium And Cucumber Base Project
 
 
 # Description
